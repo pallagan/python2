@@ -1,0 +1,43 @@
+oil=120
+salt=30
+sugar=50
+soap=60
+detergent=120
+phno=int(input('enter the phone number of customer :'))
+name=input('enter the name of the customer :')
+add=input('enter the address of the customer :')
+op=int(input('enter the number of oil packets :'))
+sp=int(input('enter the number of salt packets :'))
+sup=int(input('enter the number of sugar packets :'))
+sop=int(input('enter the number of soap packets :'))
+dp=int(input('enter the number of detergents :'))
+bill=(oil*op)+(salt*sp)+(sugar*sup)+(soap*sop)+(detergent*dp)
+if bill>=3000:
+    tax=bill*5/100
+elif bill>=2000:
+    tax=bill*7/100
+elif bill>=1000:
+    tax=bill*10/100
+elif bill>=500:
+    tax=bill*15/100
+else:
+    tax=100
+tax=tax+bill
+coupon=input('enter coupon code :')
+output:
+enter the phone number of customer :9701762956
+enter the name of the customer :jaya
+enter the address of the customer :rr pet
+enter the number of oil packets :5
+enter the number of salt packets :6
+enter the number of sugar packets :3
+enter the number of soap packets :4
+enter the number of detergents :7
+enter coupon code :1234
+customer phone number 9701762956
+customer name jaya
+customer address rr pet
+tax= 2150.7
+bill= 2010
+discount 201.0
+> 
