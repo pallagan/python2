@@ -1,0 +1,14 @@
+n=int(input())
+am=n
+sum=0
+while n>0:
+    rem=n%10
+    sum=sum+rem*rem*rem
+    n=n//10
+if am==sum:
+    print('Amstrong')
+else:
+    print('Not amstrong')
+    output:
+    4
+    Not amstrong
